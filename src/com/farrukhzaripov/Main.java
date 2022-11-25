@@ -1,9 +1,17 @@
 package com.farrukhzaripov;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        String varFour = "This is private to main()";
+        X x = new X(new Scanner(System.in));
+        x.x();
+
+
+
+
+        /*String varFour = "This is private to main()";
 
         ScopeCheck scopeCheck = new ScopeCheck();
         scopeCheck.useInner();
@@ -16,6 +24,6 @@ public class Main {
 
         innerClass.timesTwo();
 
-
+*/
     }
 }
